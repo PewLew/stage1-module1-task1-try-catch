@@ -26,7 +26,7 @@ public class ParseIntegers {
                 sum += number;
             }
             catch (Exception e){
-                System.out.println(e);
+                e.printStackTrace();
                 justWords +=next + " ";
             }
         }
